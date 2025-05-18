@@ -1,0 +1,61 @@
+# Learn more https://docs.github.com/en/get-started/getting-started-with-git/ignoring-files
+
+# dependencies
+node_modules/
+
+# Expo
+.expo/
+dist/
+web-build/
+expo-env.d.ts
+
+# Native
+.kotlin/
+*.orig.*
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
+
+# Metro
+.metro-health-check*
+
+# debug
+npm-debug.*
+yarn-debug.*
+yarn-error.*
+
+# macOS
+.DS_Store
+*.pem
+
+# local env files
+.env*.local
+
+# typescript
+*.tsbuildinfo
+
+app-example
+# Windows / AppData / Temp files
+AppData/
+Temp/
+*.log
+*.tmp
+*.bak
+
+# Code cache (Chrome, VSCode, etc.)
+Code\ Cache/
+.vscode/
+# Ignorer AppData, qui cause des erreurs avec EAS
+AppData/
+*.log
+*.tmp
+*.bak
+# Empêche d’ajouter des fichiers du système ou des extensions par erreur
+AppData/
+*.log
+*.ldb
+*.tmp
+*.png
+*.db
