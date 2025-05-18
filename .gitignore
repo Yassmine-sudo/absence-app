@@ -58,4 +58,5 @@ AppData/
 *.ldb
 *.tmp
 *.png
+!assets/images/adaptive-icon.png
 *.db
